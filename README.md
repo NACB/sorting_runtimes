@@ -219,7 +219,7 @@ but your `merge_sorted` and `quick_sorted` functions have essentially the same r
 This is because TimSort is designed to not have to resort already sorted data,
 and its best-case runtime is therefore $\Theta(n)$ instead of $\Theta(n\log n)$.
 It turns out that in practice, data is often partially sorted,
-an so TimSort is much faster than even highly optimized mergesort or quicksort implementations.
+and so TimSort is much faster than even highly optimized mergesort or quicksort implementations.
 
 Add/commit your changes and push them to the forked github repo.
 Issue a pull request to your partner with your changes,
