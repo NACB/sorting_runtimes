@@ -128,7 +128,7 @@ Native python code is not very good at performing these types of optimizations,
 and so the built-in function is written in the C programming language.
 (You can find the [source code of the built-in function on github](https://github.com/python/cpython/blob/c1b1f51cd1632f0b77dacd43092fb44ed5e053a9/Python/bltinmodule.c#L2356)).
 Functions that must be very fast are generally written in C instead of Python.
-One of the differences between a *computer sciencee* major and a *data science* major is that the CS major focuses on how to *write* these fast functions,
+One of the differences between a *computer science* major and a *data science* major is that the CS major focuses on how to *write* these fast functions,
 and the DS major focuses on how to *use* these fast functions to accomplish interesting tasks.
 
 <!--
